@@ -86,5 +86,5 @@ Rails.application.configure do
 end
 
 # Required for Devise. Remember to change localhost:3000 to actual application host
-config.action_mailer.default_url_options = { host: 'https://yelpmydemo.herokuapp.com' }
+config.action_mailer.default_url_options = { :host=> 'yelpmydemo.herokuapp.com' }
 end
