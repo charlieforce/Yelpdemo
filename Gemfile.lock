@@ -8,7 +8,6 @@ GIT
       mime-types (>= 1.16)
 
 GEM
-  remote: https://rubygems.org/
   specs:
     CFPropertyList (2.3.5)
     actioncable (5.0.2)
