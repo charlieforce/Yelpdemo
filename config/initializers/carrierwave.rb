@@ -36,6 +36,6 @@ CarrierWave.configure do |config|
      provider:              'AWS',
      aws_access_key_id:     ENV["aws_access_id"],
      aws_secret_access_key: ENV["aws_access_secret_key"],
-     region: 'us-west-2'
+     region: 'us-west-1'
  }
 end
