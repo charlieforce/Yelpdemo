@@ -2,7 +2,7 @@
   <% if @restaurant.errors.any? %>
   <div id="error_explanation" class= "alert alert-danger alert-dismissable">
     <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-      <h4><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h4>
+      <h4><%= pluralize(@restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h4>
 
       <ul>
       <% @restaurant.errors.full_messages.each do |message| %>
